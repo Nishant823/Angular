@@ -1,0 +1,14 @@
+<h1 align="center">{{ title }}</h1>
+
+
+<!-- Assignment -> take p,r,t and Display simple interest -->
+<div align="center">
+  <h3>Principle :</h3>
+  <input type="number" name="p" [(ngModel)]="p" />
+  <h3>Rate :</h3>
+  <input type="number" name="r" [(ngModel)]="r" />
+  <h3>Time (in years) :</h3>
+  <input type="number" name="t" [(ngModel)]="t" />
+  <br />
+  <h2>Simple Interest is : {{ (p * r * t) / 100 }}</h2>
+</div>
